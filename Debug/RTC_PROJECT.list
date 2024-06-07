@@ -1672,6 +1672,7 @@ void set_time (char hrs, char min, char sec,  char date, uint8_t weekday, uint8_
 
 08000bd8 <get_time>:
 
+
 void get_time(char Time[], char Date[])
 {
  8000bd8:	b580      	push	{r7, lr}

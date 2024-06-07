@@ -54,6 +54,7 @@ void set_time (char hrs, char min, char sec,  char date, uint8_t weekday, uint8_
 	HAL_RTCEx_BKUPWrite(&hrtc, RTC_BKP_DR1, 0x32F2); // backup register
 }
 
+
 void get_time(char Time[], char Date[])
 {
 	RTC_DateTypeDef gDate = {0};
